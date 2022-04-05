@@ -12,10 +12,10 @@
             <div class="row div-navigation">
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link active nav_title" aria-current="page" href="#">Search</a>
+                        <a class="nav-link nav_title" href="index.html">Search</a>
                     </li>
                     <li class="nav-item nav_title">
-                        <a class="nav-link nav_title" href="image.html">Image search</a>
+                        <a class="nav-link active nav_title" aria-current="page" href="#">Image search</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav_title" href="advanced.html">Advanced search</a>
@@ -24,16 +24,17 @@
             </div>
             <div class="row mx-0 align-items-end div-title">
                 <div class="div-title-text">
-                    <h1 class="text-center header_title">CS50 Web - Search</h1>
+                    <h1 class="text-center header_title">CS50 Web - Image search</h1>
                 </div>
             </div>
             <div class="row div-search">
-                <form action="https://google.com/search" target="_blank" class="search-form" method="GET">
+                <form action="https://google.com/search" target="_blank" class="search-form">
                     <div class="div-form">
                         <div class="div-search-block">
                             <div class="div-search-bar">
                                 <div class="div-search-input">
                                     <input type="text" name="q" class="search-text">
+                                    <input type="hidden" name="tbm", value="isch">
                                 </div>
                             </div>
                         </div>
@@ -42,8 +43,7 @@
                         <div class="div-button">
                             <div>
                                 <center>
-                                    <input class="sub_button" type="submit" name="btnK" value="Google Search">
-                                    <input class="sub_button" type="submit" name="btnI" value="I'm Feeling Lucky">
+                                    <input class="sub_button" type="submit" name="btnK" value="Google Image">
                                 </center>
                             </div>
                         </div>

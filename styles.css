@@ -1,0 +1,135 @@
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #000000;
+}
+
+.nav_title {
+    color: #000000
+}
+
+.header_title {
+    margin: auto;
+    font-size: 92px;
+    color: #337cd4;
+}
+
+.advanced_title {
+    margin: auto;
+    color: #f28b82
+}
+
+.div-navigation {
+    height: 48px;
+}
+
+.div-title {
+    height: 290px;
+}
+
+.div-title-text {
+    max-height: 92px;
+    height: 100%;
+}
+
+.div-search {
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.div-form {
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding-top: 6px;
+    width: auto;
+    max-width: 584px;
+    position: relative;
+}
+
+.div-search-block {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #ffffff;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+}
+
+.div-search-bar {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    padding-top: 5px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    padding-left: 14px;
+    flex-wrap: wrap;
+}
+
+.div-search-input {
+    color: transparent;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+    white-space: pre;
+    height: 34px;
+    font-size: 16px;
+}
+.search-text {
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    margin-top: -51px;
+    height: 38px;
+    font-size: 16px;
+    width: 550px;
+}
+
+.advanced_search {
+    width: 400px;
+}
+
+.advanced_row {
+    height: 45px;
+}
+
+.div-break {
+    height: 10px;
+}
+
+.div-button {
+    height: 70px;
+    padding-top: 18px;
+}
+
+.sub_button {
+    height: 40px;
+    width: 130px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.sub_adv_button {
+    height: 35px;
+    width: 140px;
+    background: #8ab4f8;
+    border-color: #8ab4f8;
+    border: 1px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.advanced_label {
+    font-size: 10px;
+    color: #6c6f72;
+}
